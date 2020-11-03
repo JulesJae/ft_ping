@@ -1,4 +1,4 @@
-Send iCMP Echo Request to networks hosts.
+#titre Send iCMP Echo Request to networks hosts.
 get response and give some statistics about Round Time Trip and packets.
 
 options:
