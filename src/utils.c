@@ -35,7 +35,14 @@ unsigned short	checksum(unsigned short *data, int len)
 
 void			exit_usage()
 {
-	printf("Usage: ft_ping [-v verbose] [-h help] destination\n");
+	printf("Usage: ft_ping [-v verbose] [Options] destination\n"
+	"			---		Options		---\n"
+	"	-v			display result when other ICMP packet receives\n"
+	"	-c Number	stop after sending Number packets\n"
+	"	-t Number	set the ttl to Number\n"
+	"	-i Number	wait Number second between sending each packet\n"
+	"	-h			display this usage\n"
+	);
 	exit(0);
 }
 
